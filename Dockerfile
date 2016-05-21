@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 RUN apt-get update
-RUN apt-get install -y --allow git nodejs npm
+RUN apt-get install -y git nodejs npm
 
 RUN mkdir -p /home/motepair-server
 WORKDIR /home/motepair-server
